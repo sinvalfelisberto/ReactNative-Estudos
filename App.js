@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 
 export default function App() {
   return(
@@ -8,3 +8,10 @@ export default function App() {
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+  container:{
+    flex: 1,
+    backgroundColor: #E4401D
+  }
+})
