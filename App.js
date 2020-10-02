@@ -14,7 +14,7 @@ export default function App() {
     }else if (imc < 24.9) {
       alert(`Você está no peso ideal. ${imc.toFixed(2)}`)
     }else if (imc < 34.9) {
-      alert(`Sobre peso. ${imc.toFixed(2)}`)
+      alert(`Sobre peso! ${imc.toFixed(2)}`)
     }else if(imc > 40) {
       alert(`Cuidado! Obesidade!!! ${imc.toFixed(2)}`)
     }
